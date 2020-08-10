@@ -1,0 +1,12 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: user_route
+          uri: lb://qixi-user
+          predicates:
+            - Path=/user/**
+        - id: id_route
+          uri: lb://qixi-id-generator
+          predicates:
+            - Path=/id/**

@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: qixi-id-generator
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.40.136:8848
+        ext-config:
+          - data-id: qixi-id-generator.yml
+            group: DEFAULT_GROUP
+            refresh: true

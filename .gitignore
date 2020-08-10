@@ -1,0 +1,14 @@
+/wfw.iml
+/.idea/
+/common/qixi-common-base/target/
+/common/qixi-common-core/target/
+/common/qixi-common-redis/target/
+/qixi-gateway/target/
+/qixi-service/qixi-auth/target/
+/qixi-service/qixi-id-generator/target/
+/qixi-service/qixi-process/target/
+/qixi-service/qixi-user/target/
+/qixi-service-api/qixi-id-generator-api/target/
+/qixi-service-api/qixi-process-api/target/
+/qixi-service-api/qixi-user-api/target/
+/common/qixi-common-swagger/target/

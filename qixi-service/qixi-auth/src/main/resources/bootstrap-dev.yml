@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: qixi-auth
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.40.136:8848
+        ext-config:
+          - data-id: qixi-auth.yml
+            group: DEFAULT_GROUP
+            refresh: true
+

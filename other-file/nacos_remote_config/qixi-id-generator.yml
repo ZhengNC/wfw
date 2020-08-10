@@ -1,0 +1,10 @@
+server:
+  port: 9040
+  servlet:
+    context-path: /id
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.40.136:8848

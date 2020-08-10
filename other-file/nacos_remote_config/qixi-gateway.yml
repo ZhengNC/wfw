@@ -1,0 +1,8 @@
+server:
+  port: 9039
+
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.40.136:8848
